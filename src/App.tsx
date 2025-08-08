@@ -31,13 +31,13 @@ function App() {
       if (scrollPosition >= offsetTop) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);
+        setIsVisible(true);
       }
     }
   };
 
   return (
-    <NavermapsProvider ncpClientId={ncpClientId}>
+    <NavermapsProvider ncpClientId='gal0c3nf34'>
       <Container>
         <Wrapper>
           <Main />
